@@ -1,0 +1,35 @@
+{
+    "name": "opstool-mpd-stewardwise",
+    "version": "0.0.0",
+    "description": "(plugin) An OpsPortal plugin to help our OpsTool-MPD to connect to our legacy Stewardwise system",
+    "main": "module.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "make test",
+        "postinstall": "node setup/setup.js",
+        "postupdate": "node setup/setup.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/appdevdesigns/opstool-mpd-stewardwise.git"
+    },
+    "author": "Joshua Brent",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/appdevdesigns/opstool-mpd-stewardwise/issues"
+    },
+    "homepage": "https://github.com/appdevdesigns/opstool-mpd-stewardwise#readme",
+    "dependencies": {
+        "ad-utils": "appdevdesigns/ad-utils"
+    },
+    "devDependencies": {
+        "barrels": "^1.5.0",
+        "chai": "^3.3.0",
+        "mocha": "^2.3.3",
+        "mocha-phantomjs": "^4.0.1",
+        "phantomjs": "^1.9.7-15",
+        "supertest": "^1.1.0"
+    }
+}
