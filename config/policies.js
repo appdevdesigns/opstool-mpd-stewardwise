@@ -15,12 +15,7 @@
 
 module.exports = {
 
-//    'opstool-mpd-stewardwise/YourController': {
-//        method: ['isAuthenticatedService'],
-//        auth: [],
-//        sync: serviceStack,
-//        logout:true
-//    }
-
-
+    'opstool-mpd-stewardwise/mpd': {
+        find: ['fixThat']
+    }
 };
