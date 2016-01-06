@@ -155,7 +155,6 @@ module.exports = {
             }
         
         ], function(err) {
-            results.percentOfNeed = 105;
             if (err) {
                 res.AD.error(err);
             } else {
